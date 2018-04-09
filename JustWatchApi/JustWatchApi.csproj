@@ -4,6 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Jeremiah Barndt</Authors>
     <Version>0.1.0</Version>
+    <PackageProjectUrl>https://github.com/JDBarndt/JustWatch-API</PackageProjectUrl>
+    <RepositoryUrl></RepositoryUrl>
+    <RepositoryType></RepositoryType>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
