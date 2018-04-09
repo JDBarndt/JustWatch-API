@@ -15,7 +15,7 @@
     public class JustWatchClient
     {
         private const string BaseUrl = "https://apis.justwatch.com/";
-        private const string UserAgent = "JustWatch C# Client (github.com/JDBarndt/justwatch-api)";
+        private const string UserAgent = "JustWatch C# Client (github.com/JDBarndt/JustWatch-API)";
         private readonly HttpClient httpClient;
 
         /// <summary>
@@ -36,7 +36,7 @@
                 BaseAddress = new Uri(BaseUrl)
             };
 
-            // TODO: this.httpClient.DefaultRequestHeaders.UserAgent.ParseAdd(UserAgent);
+            this.httpClient.DefaultRequestHeaders.UserAgent.ParseAdd(UserAgent);
         }
 
         /// <summary>
