@@ -1,13 +1,13 @@
 # C# JustWatch API Wrapper
 This API was built to pull title information from JustWatch.
 
-# Install
+## Install
 Available on NuGet:
 ```
 Install-Package JustWatchApi -Version 0.1.0
 ```
 
-# Examples
+## Examples
 
 ### Get popular titles
 
@@ -27,6 +27,6 @@ var response = client.GetMovie(new GetMovieRequest(Country.UnitedStates, 122337)
 var response = client.GetShow(new GetShowRequest(Country.UnitedStates, 12));
 ```
 
-# Additional Information
+## Additional Information
 
 This is an unofficial wrapper package written against publicly accessible APIs. There is no support or affiliation with JustWatch.
