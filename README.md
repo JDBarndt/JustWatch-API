@@ -4,7 +4,7 @@ This API was built to pull title information from JustWatch.
 ## Install
 Available on NuGet:
 ```
-Install-Package JustWatchApi -Version 0.1.0
+Install-Package JustWatchApi -Version 0.1.1
 ```
 
 ## Examples
@@ -25,6 +25,12 @@ var response = client.GetMovie(new GetMovieRequest(Country.UnitedStates, 122337)
 
 ```csharp
 var response = client.GetShow(new GetShowRequest(Country.UnitedStates, 12));
+```
+
+### Get season and episodes
+
+```csharp
+var response = client.GetSeason(new GetSeasonRequest(Country.UnitedStates, 9));
 ```
 
 ## Additional Information
