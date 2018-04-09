@@ -29,4 +29,4 @@ var response = client.GetShow(new GetShowRequest(Country.UnitedStates, 12));
 
 ## Additional Information
 
-This is an unofficial wrapper package written against publicly accessible APIs. There is no support or affiliation with JustWatch.
+This is an unofficial wrapper library written against publicly accessible APIs. There is no support or affiliation with JustWatch.
