@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2027
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustWatchApi", "JustWatchApi\JustWatchApi.csproj", "{04C1B7DC-280D-4FBC-8417-A9DCD0138C07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JustWatchApi", "JustWatchApi\JustWatchApi.csproj", "{04C1B7DC-280D-4FBC-8417-A9DCD0138C07}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustWatchApi.Tests", "JustWatchApi.Tests\JustWatchApi.Tests.csproj", "{DB079492-FC9F-4D5F-814F-190FAC211F84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD6F1BD0-466C-4C82-AF85-FCEE086591FF}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
