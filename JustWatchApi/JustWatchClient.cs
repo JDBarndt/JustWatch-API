@@ -235,26 +235,6 @@
             return await this.ApiRequestAsync<GetSeasonResponse>(request);
         }
 
-        /// <summary>
-        /// Returns list of requested movies and shows.
-        /// </summary>
-        /// <param name="request">Container for the necessary parameters to execute the <see cref="GetTitles(GetTitlesRequest)"/> method.</param>
-        /// <returns>The response from the Title List API.</returns>
-        public GetTitlesResponse GetTitles(GetTitlesRequest request)
-        {
-            return this.ApiRequest<GetTitlesResponse>(request);
-        }
-
-        /// <summary>
-        /// Returns list of requested movies and shows.
-        /// </summary>
-        /// <param name="request">Container for the necessary parameters to execute the <see cref="GetTitlesAsync(GetTitlesRequest)"/> method.</param>
-        /// <returns>The response from the Title List API.</returns>
-        public async Task<GetTitlesResponse> GetTitlesAsync(GetTitlesRequest request)
-        {
-            return await this.ApiRequestAsync<GetTitlesResponse>(request);
-        }
-
         /*
         public string GetTitleUrls()
         {

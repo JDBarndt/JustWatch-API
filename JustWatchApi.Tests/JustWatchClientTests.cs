@@ -220,41 +220,5 @@ namespace JustWatchApi.Tests
             Assert.IsNotNull(response);
             Assert.IsTrue(response.Id == 12);
         }
-
-        [TestMethod]
-        public void GetTitles_UnitedStatesMovieAndShow_HasResults()
-        {
-            var response = client.GetTitles(new GetTitlesRequest(Country.UnitedStates)
-            {
-                Titles = new Models.Title.TitlesRequest()
-                {
-                    Movie = new int[] {122337},
-                    Show = new int[] {12}
-                }
-            });
-
-            Assert.IsNotNull(response?.Titles?.Movie?.FirstOrDefault());
-            Assert.IsNotNull(response?.Titles?.Show?.FirstOrDefault());
-            Assert.IsTrue(response.Titles.Movie.First().Id == 122337);
-            Assert.IsTrue(response.Titles.Show.First().Id == 12);
-        }
-
-        [TestMethod]
-        public async Task GetTitlesAsync_UnitedStatesMovieAndShow_HasResults()
-        {
-            var response = await client.GetTitlesAsync(new GetTitlesRequest(Country.UnitedStates)
-            {
-                Titles = new Models.Title.TitlesRequest()
-                {
-                    Movie = new int[] { 122337 },
-                    Show = new int[] { 12 }
-                }
-            });
-
-            Assert.IsNotNull(response?.Titles?.Movie?.FirstOrDefault());
-            Assert.IsNotNull(response?.Titles?.Show?.FirstOrDefault());
-            Assert.IsTrue(response.Titles.Movie.First().Id == 122337);
-            Assert.IsTrue(response.Titles.Show.First().Id == 12);
-        }
     }
 }

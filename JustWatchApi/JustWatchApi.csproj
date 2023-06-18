@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Jeremiah Barndt</Authors>
-    <Version>0.1.2</Version>
+    <Version>0.2.0</Version>
     <PackageProjectUrl>https://github.com/JDBarndt/JustWatch-API</PackageProjectUrl>
     <RepositoryUrl></RepositoryUrl>
     <RepositoryType></RepositoryType>
