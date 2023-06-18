@@ -4,7 +4,7 @@ This API was built to pull title information from JustWatch.
 ## Install
 Available on NuGet:
 ```
-Install-Package JustWatchApi -Version 0.1.2
+Install-Package JustWatchApi -Version 0.2.0
 ```
 
 ## Examples

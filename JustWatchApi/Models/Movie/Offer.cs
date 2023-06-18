@@ -36,7 +36,7 @@
         /// Gets or sets last change difference.
         /// </summary>
         [DataMember(Name = "last_change_difference")]
-        public int LastChangeDifference { get; set; }
+        public decimal LastChangeDifference { get; set; }
 
         /// <summary>
         /// Gets or sets last change percent.
